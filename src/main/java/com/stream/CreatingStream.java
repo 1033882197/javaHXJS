@@ -18,7 +18,7 @@ public class CreatingStream {
 //        Stream<String> words = Stream.of(content.split("\\PL+"));
 //        show("words", words);
         Stream<String> song = Stream.of("gently", "down", "the", "stream");
-        show("song", song) ;
+        show("song", song);
 
         Stream<String> silence = Stream.empty();
         show("silence", silence);
